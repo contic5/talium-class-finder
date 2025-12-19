@@ -4,7 +4,7 @@ import ColumnHandler from './ColumnHandler.jsx';
 import './App.css'
 import get_excel_data from './get_excel_data.js'
 
-const file_name="Class_Data.xlsx";
+const file_name="New_Class_Data.xlsx";
 const columns=["ID","Name/Rank","Day","Start","End","Age"];
 
 function App() {
@@ -255,6 +255,7 @@ function App() {
     <>
     <img src="talium_logo.jpg"></img>
     <h1>Talium Taekwondo Class Finder</h1>
+    <p>Official Talium Website: <a href="https://taliumtkd.com/">https://taliumtkd.com/</a></p>
     <p>Use this tool to find what classes you can go to. Filter by rank, day or age to find what class will work best for  you.</p>
     <table>
     <thead><tr>{columns_mapped_head}</tr></thead>

@@ -16,6 +16,7 @@ function TaekwondoElement(props)
     return (
         <div className="TaekwondoElement">
         <h2>{taekwondo_class["Name/Rank"]}</h2>
+        <h3>{taekwondo_class["Age"]}</h3>
         <h3>{taekwondo_class.Day} {decimal_to_written_time(taekwondo_class.Start)} - {decimal_to_written_time(taekwondo_class.End)}</h3>
         </div>
     );
